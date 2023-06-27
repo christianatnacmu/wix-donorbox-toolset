@@ -13,3 +13,14 @@ Returns URL to embed the meter only
 ### getMeterValues(campaignName)
 Returns meter values (goal, amount raised, donations, currency code) as JSON object  
 This method fetches the meter HTML and uses regular expressions to extract the information.
+
+Example object:
+```
+{
+  "currencySymbol": "€",
+  "raised": 3676.19,
+  "donations": 10,
+  "goal": 9250,
+  "progress": 39
+}
+```
